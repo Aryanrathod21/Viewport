@@ -1,3 +1,6 @@
+import Categories from '@/components/Categories'
+import Contact from '@/components/Contact'
+import Mostvisited from '@/components/Mostvisited'
 import Text from '@/components/Text'
 import Banner from '@/components/banner'
 import Whereimg from '@/components/whereimg'
@@ -7,8 +10,10 @@ export default function Home() {
   return (
     <>
    <Banner/>
-   <Text/>
    <Whereimg/>
+   <Mostvisited/>
+   <Categories/>
+   <Contact/>
    </>
   )
 }

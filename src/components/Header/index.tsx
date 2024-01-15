@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <section className='sticky flex flex-row w-full bg-slate-100 justify-between top-0 '>
+    <section className='sticky z-40 flex flex-row w-full bg-slate-100 justify-between top-0 '>
        <a href='#'> <Image
       src={logo}
       alt="logo"

@@ -29,7 +29,7 @@ body {
   header,
   footer,
   section {
-    @apply px-20;
+    @apply px-10;
   }
 
   section {
