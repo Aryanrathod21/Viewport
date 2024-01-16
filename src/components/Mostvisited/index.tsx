@@ -10,7 +10,7 @@ const Mostvisited = (props: Props) => {
   return (
     <section>
     <Knowtext title="Most Visited Place Of All Time" subtitle="Taj Mahel"></Knowtext>
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6 '>
+    <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-6 '>
     <Image
     src={siuu}
     alt="sjs"

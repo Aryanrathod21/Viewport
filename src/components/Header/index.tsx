@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '@/app/assets/images/logo.png'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -16,7 +17,7 @@ const Header = (props: Props) => {
       <ul className=' lg:flex md:flex hidden items-center  ' >
         <li  className='flex gap-10 ' >   
             <a href='#' >Home</a>
-            <a href='#' >Locations</a>
+            <Link href="/Locations">Locations</Link>
             <a href='#' >Things To Do</a>
             <a href='#' >About Us</a>
             <a href='#' >Contact Us</a>
