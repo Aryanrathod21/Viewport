@@ -8,7 +8,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <section className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1  bg-slate-100  '>
+    <section className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 bg-slate-100 '>
         <div className='flex flex-col gap-6 py-4'>
          <a href='#'> <Image
       src={logo}
@@ -19,7 +19,7 @@ const Footer = (props: Props) => {
       <p className='text-lg font-semibold'>Hisashiburi dana mugiwara
       </p>
       </div>
-      <div className='flex flex-col gap-14 py-4 '>
+      <div className='flex flex-col gap-14 py-4'>
       <strong className='text-2xl'>Information</strong>
       <ul className='grid grid-cols-3 grid-rows-3 gap-6'>
                         <a href='#'><li className='pr-10'>Blog</li></a>
@@ -46,6 +46,7 @@ const Footer = (props: Props) => {
 
                 </div>
       </div>
+     
     </section>
   )
 }

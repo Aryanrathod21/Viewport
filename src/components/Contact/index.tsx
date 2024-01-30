@@ -6,7 +6,7 @@ type Props = {};
 
 const Contact = (props: Props) => {
   return (
-    <section className='relative  flex justify-center items-center pb-10'>
+    <section className='relative  flex justify-center items-center pb-10 flex-wrap'>
       <div className='relative h-[30dvh] w-screen bg-red-100 rounded-lg '>
         <Image
           src={last}
@@ -16,8 +16,8 @@ const Contact = (props: Props) => {
           objectFit='cover'
           className='rounded-lg'
         />
-        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'></div>
-        <div className='absolute top-0 left-0 w-fit h-fit flex flex-col justify-center pl-20 gap-4'>
+       
+        <div className='absolute top-0 left-0 w-fit h-full flex flex-col justify-center pl-16 gap-4'>
           <h1 className='text-black lg:text-5xl md:text-3xl sm:text-xl text-lg'>Join With Us</h1>
           <p className='text-black w-fit'>Lorem ipsum dolor sit amet,
            consectetur adipiscing elit ut aliquam.</p>
@@ -30,7 +30,8 @@ const Contact = (props: Props) => {
           />
 
         </div>
-      </div>
+        </div>
+     
     </section>
   );
 };

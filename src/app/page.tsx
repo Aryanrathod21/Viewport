@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <>
    
-   <Banner/>
+   <Banner>Welcome To Viewport</Banner>
    <Whereimg/>
    <Mostvisited/>
    <Categories/>
    <Contact/>
-   
+
    
    </>
   )

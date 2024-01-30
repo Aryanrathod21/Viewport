@@ -1,3 +1,6 @@
+import Locat from '@/components/Locations'
+import Mount from '@/components/Mount'
+import Banner from '@/components/banner'
 import Link from 'next/link'
 import React from 'react'
 
@@ -6,9 +9,9 @@ type Props = {}
 const Locations = (props: Props) => {
   return (
     <>
-    <Link href="/">
-    <h1>siuuuuu</h1>
-    </Link>
+    <Banner>Locations You Must Visit</Banner>
+    <Locat/>
+    <Mount/>
     </>
   )
 }

@@ -86,7 +86,7 @@ type Props = {}
               layout="fill"
             /></div>
              <div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-50 lg:text-3xl md:text-2xl sm:text-xl text-lg  font-bold w-full text-center ">
-            <p className="text-center pb-2 shadow-lg">{cate.title}</p>
+            <p className="text-center">{cate.title}</p>
           </div>
           </div>
          
