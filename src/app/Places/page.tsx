@@ -12,6 +12,7 @@ import che from "@/app/assets/images/Chennai1.jpg"
 import udai from "@/app/assets/images/Udaipur1.jpg"
 import shi from "@/app/assets/images/Shimla1.jpg"
 import rishi from "@/app/assets/images/Rishikesh1.jpg"
+import Link from 'next/link'
 
 
 type Props = {}
@@ -19,16 +20,26 @@ type Props = {}
 const Places = (props: Props) => {
   return (
     <section>
-    <div className='grid grid-cols-[35%_1fr] grid-row-12 gap-4 shadow-slate-500 '>
-        <Image src={ahm} alt='img' objectFit='cover'
-        />
-        
-        <div className='flex flex-col gap-4 bg-slate-50 px-2 '>
-            <h2 className='text-2xl font-bold'>Ahemdabad</h2>
-            <p className='text-sm'>Ahmedabad, Gujarat, India, presents a captivating blend of historical treasures, cultural landmarks, and modern marvels that beckon travelers from across the globe. At the heart of the city lies the Sabarmati Ashram, a poignant symbol of India's independence movement, where Mahatma Gandhi lived and worked towards social reform. Nearby, the Sidi Saiyyed Mosque stands as a testament to Indo-Islamic architecture, renowned for its intricately carved stone jaalis.Venture further to discover the Adalaj Stepwell, an architectural gem from the 15th century, adorned with exquisite carvings and serving as both a utilitarian water source and a sanctuary for contemplation. Kankaria Lake, a bustling recreational hub, offers a myriad of activities including boating, zoo visits, and leisurely strolls along its scenic promenade.Jama Masjid, with its grand domes and ornate prayer halls, showcases the city's religious diversity and architectural prowess. For enthusiasts of textile heritage, the Calico Museum stands as a treasure trove, housing a vast collection of rare textiles and artifacts spanning centuries of craftsmanship.Heading towards the outskirts, the Akshardham Temple mesmerizes visitors with its stunning architecture and serene ambiance, offering a spiritual retreat amidst lush gardens and intricately carved stone facades.Ahmedabad's charm lies not only in its historical and cultural riches but also in its modern developments, reflected in its vibrant markets, bustling streets, and contemporary infrastructure. Whether exploring ancient monuments or indulging in culinary delights at its bustling food scene, Ahmedabad promises an enriching experience that captivates the senses and leaves an indelible mark on every traveler's heart.</p>
-        </div>
-        <Image src={del} alt='img' objectFit='cover' height={250} width={900}
-        />
+    <div className='grid lg:grid-cols-[35%_1fr] grid-row-12 gap-4 shadow-slate-500 md:grid-cols-1 sm:grid-cols-1 '>
+    <div style={{ position: 'relative', display: 'inline-block' }}>
+   <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={ahm} alt='img' objectFit='cover' />
+</div>
+<div className='flex flex-col gap-4 bg-slate-50 px-2 '>
+  <h2 className='text-2xl font-bold'>Ahmedabad</h2>
+  <p className='text-sm'>Ahmedabad, Gujarat, India, presents a captivating blend of historical treasures, cultural landmarks, and modern marvels that beckon travelers from across the globe. At the heart of the city lies the Sabarmati Ashram, a poignant symbol of India's independence movement, where Mahatma Gandhi lived and worked towards social reform. Nearby, the Sidi Saiyyed Mosque stands as a testament to Indo-Islamic architecture, renowned for its intricately carved stone jaalis.Venture further to discover the Adalaj Stepwell, an architectural gem from the 15th century, adorned with exquisite carvings and serving as both a utilitarian water source and a sanctuary for contemplation. Kankaria Lake, a bustling recreational hub, offers a myriad of activities including boating, zoo visits, and leisurely strolls along its scenic promenade.Jama Masjid, with its grand domes and ornate prayer halls, showcases the city's religious diversity and architectural prowess. For enthusiasts of textile heritage, the Calico Museum stands as a treasure trove, housing a vast collection of rare textiles and artifacts spanning centuries of craftsmanship.Heading towards the outskirts, the Akshardham Temple mesmerizes visitors with its stunning architecture and serene ambiance, offering a spiritual retreat amidst lush gardens and intricately carved stone facades.Ahmedabad's charm lies not only in its historical and cultural riches but also in its modern developments, reflected in its vibrant markets, bustling streets, and contemporary infrastructure. Whether exploring ancient monuments or indulging in culinary delights at its bustling food scene, Ahmedabad promises an enriching experience that captivates the senses and leaves an indelible mark on every traveler's heart.</p>
+</div>
+
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={del} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Delhi</h2>
@@ -46,8 +57,13 @@ Delhi's cultural mosaic is further enriched by its vibrant arts and culinary sce
 
 With its blend of ancient heritage and contemporary dynamism, Delhi promises a captivating journey through the ages, where every street corner, monument, and market stall tells a story waiting to be discovered.</p>
         </div>
-        <Image src={mum} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={mum} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Mumbai</h2>
@@ -67,8 +83,13 @@ Mumbai's cultural landscape is further enriched by its myriad museums, galleries
 
 From its bustling markets to its tranquil seaside retreats, Mumbai offers a dynamic blend of experiences that capture the essence of India's past, present, and future, leaving visitors enchanted and eager to explore more of this vibrant city.</p>
         </div>
-        <Image src={jai} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={jai} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Jaipur</h2>
@@ -87,8 +108,13 @@ Indulge your senses with a royal dining experience at one of Jaipur's heritage h
 
 As the sun sets, witness the city come alive with the vibrant hues of the Chokhi Dhani village, a cultural hub offering traditional Rajasthani entertainment, folk performances, and artisanal crafts, providing a captivating finale to your Jaipur experience.</p>
         </div>
-        <Image src={agr} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={agr} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Agra</h2>
@@ -105,8 +131,13 @@ As the day draws to a close, head to the Mehtab Bagh, a serene garden complex lo
 
 Agra's timeless beauty and historical significance make it a must-visit destination for travelers seeking to immerse themselves in the rich tapestry of India's cultural heritage and architectural marvels.</p>
         </div>
-        <Image src={vara} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={vara} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Varanasi</h2>
@@ -120,8 +151,13 @@ Stroll through the narrow lanes and alleys of the old city, where time seems to 
 
 A boat ride along the Ganges offers a unique perspective of Varanasi's ghats and skyline, allowing visitors to witness the city's timeless beauty and spiritual fervor from the tranquil waters of the river.</p>
         </div>
-        <Image src={goa} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={goa} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Goa</h2>
@@ -136,8 +172,13 @@ For a taste of Goa's vibrant culture, visit the bustling markets of Mapusa and A
 
 Nature enthusiasts will find plenty to explore in Goa's lush hinterland. Embark on a trek through the Western Ghats to discover cascading waterfalls, verdant forests, and picturesque spice plantations. The Dudhsagar Waterfalls, one of India's tallest waterfalls, is a breathtaking sight to behold, especially during the monsoon season.</p>
         </div>
-        <Image src={kol} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={kol} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Kolkata</h2>
@@ -153,8 +194,13 @@ Kolkata's cultural scene comes alive in its vibrant neighborhoods, each with its
 
 No visit to Kolkata is complete without indulging in its culinary delights. Sample street food delicacies like phuchka (pani puri), kathi rolls, and jhal muri (spicy puffed rice) at roadside stalls and local markets, or savor authentic Bengali cuisine at heritage restaurants like Oh! Calcutta and 6 Ballygunge Place.</p>
         </div>
-        <Image src={che} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={che} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Chennai</h2>
@@ -170,8 +216,13 @@ Chennai is also a haven for food lovers, offering a tantalizing array of culinar
 
 To experience Chennai's cultural vibrancy, catch a classical music or dance performance at the Kalakshetra Foundation or the Music Academy, where talented artists showcase the rich traditions of Carnatic music and Bharatanatyam dance.</p>
         </div>
-        <Image src={udai} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={udai} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Udaipur</h2>
@@ -188,8 +239,13 @@ No visit to Udaipur is complete without witnessing the breathtaking sunset views
 
 For a taste of Udaipur's rich cultural heritage, attend a traditional folk dance performance at the Bagore ki Haveli or the Shilpgram Cultural Complex, where talented artists showcase the vibrant music, dance, and art forms of Rajasthan.</p>
         </div>
-        <Image src={shi} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={shi} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Shimla</h2>
@@ -208,8 +264,13 @@ Indulge in the flavors of Himachali cuisine at local eateries and restaurants, w
 
 Whether you're seeking adventure in the mountains, tranquility in nature, or simply a relaxing getaway amidst scenic surroundings, Shimla offers an unforgettable experience that rejuvenates the body, mind, and soul.</p>
         </div>
-        <Image src={rishi} alt='img' objectFit='cover'
-        />
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+        <Link href='/Booktic'>     
+  <button className='h-8 w-32 bg-lime-400 hover:bg-lime-700 transition-all' style={{ position: 'absolute', top: 0, left: 0 }}>
+    Book Ticket
+  </button></Link>
+  <Image src={rishi} alt='img' objectFit='cover' />
+</div>
         
         <div className='flex flex-col gap-4 bg-slate-50 px-2'>
             <h2 className='text-2xl font-bold'>Rishikesh</h2>

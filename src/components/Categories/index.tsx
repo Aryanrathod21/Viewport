@@ -19,6 +19,7 @@ import si6 from "@/app/assets/images/beaches1.jpg";
 import si6Hover from "@/app/assets/images/beaches1.jpg";
 import si7 from "@/app/assets/images/beaches1.jpg";
 import si7Hover from "@/app/assets/images/beaches1.jpg";
+import Link from 'next/link';
 
 
 const CategoriesData = [
@@ -71,6 +72,7 @@ type Props = {}
   return (
     <section>
     <Knowtext title="START PLANNING YOUR ADVENTURE" subtitle="India Top Tourisum Categories"></Knowtext>
+    <Link href='/Locations'>
     <div className=" grid xl:grid-cols-3 grid-rows-2 z-0 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-12 ">
       {CategoriesData.map((cate, index) => (
         <div key={cate.title} className="relative group z-0  pb-12">
@@ -92,7 +94,7 @@ type Props = {}
          
         </div>
       ))}
-    </div>
+    </div></Link>
     </section>
   );
 };

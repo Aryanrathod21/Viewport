@@ -2,6 +2,8 @@
 import Knowtext from '../Text/Knowtext'
 import Image from 'next/image'
 import React, { useState } from "react";
+import Link from "next/link"
+
 
 import si0 from "@/app/assets/images/Ahemdabad1.jpg";
 import si0Hover from "@/app/assets/images/ahemdabad2.jpg";
@@ -108,7 +110,9 @@ type Props = {}
   return (
     <section>
     <Knowtext title="Places You Must Visit" subtitle="India Top Tourist Attrections "></Knowtext>
+    <Link href="/Places">
     <div className=" grid xl:grid-cols-3 grid-rows-2 z-0 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-12 ">
+      
       {CategoriesData.map((cate, index) => (
         <div key={cate.title} className="relative group z-0  pb-12">
           <div
@@ -129,7 +133,7 @@ type Props = {}
          
         </div>
       ))}
-    </div>
+    </div></Link>
     </section>
   );
 };

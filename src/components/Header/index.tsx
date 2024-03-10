@@ -21,8 +21,8 @@ const Header = (props: Props) => {
             <Link href="/Aboutus" className='hover:text-green-800 hover:underline transition-all duration-500'>About Us</Link>
             <Link href="/Contactus" className='hover:text-green-800 hover:underline transition-all duration-500'>Contact Us</Link>
             <Link href="/Login" className='hover:text-green-800 hover:underline transition-all duration-500'>Login</Link>
-            <Link href="/Places" className='hover:text-green-800 hover:underline transition-all duration-500'>Places</Link>
-            <Link href="/Booktic" className='hover:text-green-800 hover:underline transition-all duration-500'>Booking</Link>
+            {/* <Link href="/Places" className='hover:text-green-800 hover:underline transition-all duration-500'>Places</Link>
+            <Link href="/Booktic" className='hover:text-green-800 hover:underline transition-all duration-500'>Booking</Link> */}
         </li>
 </ul>               
     </section>
