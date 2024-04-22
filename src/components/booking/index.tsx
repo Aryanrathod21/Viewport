@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 
 import Tickets from '../tickets';
+import Image from 'next/image';
+import siuu from '@/app/assets/images/Designer.png'
 
 const Booking = () => {
   const [user, setUser] = useState({
@@ -40,9 +42,18 @@ const Booking = () => {
 
   return (
     <section className='Form'>
-      <div className='container w-[50dvw] justify-start items-center'>
+      <div className='container flex w-full justify-center items-center'>
         {!showTicket && (
-          <form method='POST' className='grid grid-cols-1 grid-rows-5 justify-center items-center gap-4'>
+          <form method='POST' className='grid md:grid-cols-2 sm:grid-cols-1 w-1/2  justify-center items-center gap-4'>
+            <div>
+            <Image
+             src={siuu}
+             alt="sjs"
+             objectFit='cover'
+             
+              />
+            </div>
+            <div className='grid grid-rows-5 gap-4'>
             <input type='text' name='Name' placeholder='Enter your name' value={user.Name} autoComplete='off' required onChange={data} />
             <input type='text' name='Location' placeholder='Enter your location you want to go' value={user.Location} autoComplete='off' required onChange={data} />
             <input type='text' name='Locationy' placeholder='Enter your location from where to go' value={user.Locationy} autoComplete='off' required onChange={data} />
@@ -63,7 +74,7 @@ const Booking = () => {
               </label>
               {/* Add more radio buttons for other travel options if needed */}
             </div>
-            <button className='bg-slate-200' onClick={getdata}>submit</button>
+            <button className='bg-slate-200' onClick={getdata}>submit</button></div>
           </form>
         )}
         {showTicket && (
