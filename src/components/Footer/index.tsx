@@ -6,7 +6,7 @@ import { FaInstagram, FaPinterestP, FaTwitter } from 'react-icons/fa';
 
 type Props = {}
 
-const Footer = (props: Props) => {
+const   Footer = (props: Props) => {
   return (
     <section className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 bg-slate-100 '>
         <div className='flex flex-col gap-6 py-4'>
