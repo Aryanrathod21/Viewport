@@ -1,6 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Viewport
+
+Viewport is a website where you can book a ticket for any destination you want to go. The website is mainly static, with only the login and ticket booking saved in the Firebase database.
+
+## Technologies Used
+
+### Frontend
+- Next.js
+- Tailwind CSS
+- TypeScript
+
+### Database
+- Firebase
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
