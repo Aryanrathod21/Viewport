@@ -14,6 +14,8 @@ Viewport is a website where you can book a ticket for any destination you want t
 ### Database
 - Firebase
 
+![Screenshot 2024-07-29 182624](https://github.com/user-attachments/assets/e3f653a6-9fc0-47eb-bbed-51fd5fa73f56)
+
 ## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
