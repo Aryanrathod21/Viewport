@@ -2,6 +2,8 @@
 
 Viewport is a website where you can book a ticket for any destination you want to go. The website is mainly static, with only the login and ticket booking saved in the Firebase database.
 
+![Screenshot 2024-07-29 182510](https://github.com/user-attachments/assets/133e3362-6b7e-47fd-b9c7-04aa1e7519f2)
+
 ## Technologies Used
 
 ### Frontend
