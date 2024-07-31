@@ -11,7 +11,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth'
 type Props = {};
 
 const Login = (props: Props) => {
-  const handleSubmit =(e)=>{
+  const handleSubmit =(e:any)=>{
     e.preventDefault()
     const email = e.target.email.value
     const password = e.target.password.value
