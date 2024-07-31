@@ -4,7 +4,7 @@ type Props = {}
 
 
 
-    const Tickets = ({ userData }) => {
+    const Tickets = ({ userData }:any) => {
       return (
         <div className="ticket">
           <h2>Ticket Details</h2>

@@ -99,7 +99,7 @@ type Props = {}
   const Locat = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const handleMouseEnter = (index) => {
+  const handleMouseEnter = (index:any) => {
     setHoveredIndex(index);
   };
 

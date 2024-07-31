@@ -16,12 +16,12 @@ const Booking = () => {
 
   const [showTicket, setShowTicket] = useState(false);
 
-  const data = (e) => {
+  const data = (e:any) => {
     const { name, value } = e.target;
     setUser({ ...user, [name]: value });
   };
 
-  const getdata = async (e) => {
+  const getdata = async (e:any) => {
     e.preventDefault();
     const { Name, Location, Email, Locationy, travelPath } = user;
     const options = {
