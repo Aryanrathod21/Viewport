@@ -61,7 +61,7 @@ type Props = {}
   const Categories = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const handleMouseEnter = (index) => {
+  const handleMouseEnter = (index:any) => {
     setHoveredIndex(index);
   };
 
